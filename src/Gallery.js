@@ -79,7 +79,7 @@ class Gallery extends React.Component {
         columns = 1;
         if (containerWidth >= 500) columns = 2;
         if (containerWidth >= 900) columns = 3;
-        if (containerWidth >= 1500) columns = 4;
+        if (containerWidth >= 1501) columns = 4;
       }
       galleryStyle = { position: 'relative' };
       thumbs = computeColumnLayout({ containerWidth: width, columns, margin, photos });
